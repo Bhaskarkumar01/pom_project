@@ -1,10 +1,10 @@
 
 
-from   selenium_training.pom_project.pom.cartpage import CartPage
-from selenium_training.pom_project.pom.homepage import HomePage
-from selenium_training.pom_project.pom.loginpage import LogIn
-from selenium_training.pom_project.pom.desktoppage import DesktopPage
-from selenium_training.pom_project.pom.simple_comp_page import Simple_Comp
+from  pom_project.pom.cartpage import CartPage
+from pom_project.pom.homepage import HomePage
+from pom_project.pom.loginpage import LogIn
+from pom_project.pom.desktoppage import DesktopPage
+from pom_project.pom.simple_comp_page import Simple_Comp
 
 import time
 
