@@ -12,7 +12,7 @@ import time
 
 
 
-from selenium_training.pom_project.generic_utilities.excel_utility import read_excel
+from pom_project.generic_utilities.excel_utility import read_excel
 
 data = read_excel()
 ## {'valid_email': 'steve.jobs123@gmail.com', 'valid_pwd': 'stevejobs', 'country': 'India', 'pincode': 5632014.0, 'sortby': 'Price: Low to High', 'viewas': 'List'}
