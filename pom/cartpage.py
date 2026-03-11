@@ -2,9 +2,9 @@
 import time
 from selenium.webdriver.support.select import Select
 
-from selenium_training.pom_project.generic_utilities.WebdriverUtility import  Webdriverutility
+from generic_utilities.WebdriverUtility import  Webdriverutility
 
-from selenium_training.pom_project.object_repository.cartpage_locators import CartPageLocators
+from object_repository.cartpage_locators import CartPageLocators
 
 loc = CartPageLocators()
 
