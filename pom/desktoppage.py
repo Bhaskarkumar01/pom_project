@@ -6,10 +6,10 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
 
 
-from selenium_training.pom_project.object_repository.desktoppage_locators import DesktopLocators
+from object_repository.desktoppage_locators import DesktopLocators
 
 loc = DesktopLocators()
-from selenium_training.pom_project.generic_utilities.WebdriverUtility import  Webdriverutility
+from generic_utilities.WebdriverUtility import  Webdriverutility
 
 class DesktopPage():
     def __init__(self, driver):
