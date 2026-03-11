@@ -2,7 +2,7 @@ import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
-from selenium_training.pom_project.object_repository.simpcomp_page_locators import SimpCompPageLocators
+from object_repository.simpcomp_page_locators import SimpCompPageLocators
 
 loc =SimpCompPageLocators()
 class Simple_Comp:
