@@ -1,10 +1,10 @@
 
 
-from  pom_project.pom.cartpage import CartPage
-from pom_project.pom.homepage import HomePage
-from pom_project.pom.loginpage import LogIn
-from pom_project.pom.desktoppage import DesktopPage
-from pom_project.pom.simple_comp_page import Simple_Comp
+from pom.cartpage import CartPage
+from pom.homepage import HomePage
+from pom.loginpage import LogIn
+from pom.desktoppage import DesktopPage
+from pom.simple_comp_page import Simple_Comp
 
 import time
 
@@ -12,7 +12,7 @@ import time
 
 
 
-from pom_project.generic_utilities.excel_utility import read_excel
+from generic_utilities.excel_utility import read_excel
 
 data = read_excel()
 ## {'valid_email': 'steve.jobs123@gmail.com', 'valid_pwd': 'stevejobs', 'country': 'India', 'pincode': 5632014.0, 'sortby': 'Price: Low to High', 'viewas': 'List'}
