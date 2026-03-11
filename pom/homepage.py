@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-from selenium_training.pom_project.object_repository.homepage_locators import HomePageLocators
+from object_repository.homepage_locators import HomePageLocators
 
 loc =HomePageLocators()
 
