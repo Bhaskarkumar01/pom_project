@@ -1,7 +1,7 @@
 import time
 
 
-from selenium_training.pom_project.object_repository.loginpage_locators import LoginPageLocators
+from object_repository.loginpage_locators import LoginPageLocators
 
 loc =LoginPageLocators()
 class LogIn():
